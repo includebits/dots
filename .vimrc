@@ -1,3 +1,4 @@
+" set leader
 let mapleader = "\<Space>"
 
 set nowrap
