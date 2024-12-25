@@ -12,7 +12,7 @@
 " set leader
 let mapleader = "\<Space>"
 
-set nowrap
+set wrap
 set title
 set encoding=utf-8
 set autoindent      " enable basic auto indentation
