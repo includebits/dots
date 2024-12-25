@@ -1,3 +1,14 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
+"               
+"               ██╗   ██╗██╗███╗   ███╗██████╗  ██████╗
+"               ██║   ██║██║████╗ ████║██╔══██╗██╔════╝
+"               ██║   ██║██║██╔████╔██║██████╔╝██║     
+"               ╚██╗ ██╔╝██║██║╚██╔╝██║██╔══██╗██║     
+"                ╚████╔╝ ██║██║ ╚═╝ ██║██║  ██║╚██████╗
+"                 ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
+"               
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+
 " set leader
 let mapleader = "\<Space>"
 
@@ -58,6 +69,17 @@ cnoremap <M-h> <Left>
 cnoremap <M-j> <Down>
 cnoremap <M-k> <Up>
 cnoremap <M-l> <Right>
+
+" Enable auto completion menu after pressing TAB.
+
+set wildmenu
+
+" Make wildmenu behave like similar to Bash completion.
+set wildmode=list:longest
+
+" There are certain files that we would never want to edit with Vim.
+" Wildmenu will ignore files with these extensions.
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " Prettier configuration
 let g:prettier#autoformat = 1
