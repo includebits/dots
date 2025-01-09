@@ -1,4 +1,4 @@
-i" Vim color file
+" Vim color file
 " Maintainer:	includebits 
 " Last Change:	2025 January 9
 
